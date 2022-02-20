@@ -1,0 +1,155 @@
+/* ************************************* */
+/* Below 1344px(Smaller desktops) */
+@media (max-width: 84em) {
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+}
+
+/* ************************************* */
+/* Below 1200px */
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+}
+
+/* ************************************* */
+/* Below 944px */
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+  .cta {
+    grid-template-columns: 3fr 2fr;
+  }
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+  .btn--form {
+    margin-top: 1.2rem;
+  }
+  .college-list {
+    grid-template-columns: 1fr 1fr;
+    padding: 48px 80px;
+    /* max-width: 350px; */
+    margin: 0 auto;
+  }
+  .main-nav {
+    gap: 8rem;
+  }
+}
+
+/* ************************************* */
+/* Below 704px */
+@media (max-width: 44em) {
+  .header {
+    padding: 0 4.8rem;
+  }
+  .heading-primary {
+    font-size: 4rem;
+  }
+  .heading-secondary {
+    font-size: 3.6rem;
+    margin-bottom: 4.8rem;
+  }
+  .search-college {
+    width: 48rem;
+  }
+  .search-list-item {
+    width: 48rem;
+  }
+  .grid--footer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .logo-col,
+  .adress-col {
+    grid-row: 1;
+  }
+  .nav-col {
+    grid-row: 2;
+    margin-bottom: 3.2rem;
+  }
+  .main-nav {
+    gap: 7.2rem;
+  }
+  .footer--link {
+    justify-content: flex-start;
+    margin-left: 2rem;
+  }
+  .social-links {
+    justify-content: flex-start;
+    gap: 2rem;
+  }
+}
+
+/* ************************************* */
+/* Below 544px */
+@media (max-width: 34em) {
+  .header {
+    padding: 0 3.6rem;
+  }
+  .logo {
+    width: 7.2rem;
+    height: 7.2rem;
+  }
+  .main-nav {
+    gap: 2.4rem;
+  }
+  .nav-link {
+    font-size: 1.8rem !important;
+  }
+  .heading-primary {
+    font-size: 3.2rem;
+  }
+  .search-college {
+    width: 40rem;
+    font-size: 1.6rem;
+  }
+  .search-list-item {
+    width: 40rem;
+  }
+  .search-list-anchor {
+    font-size: 1.2rem;
+  }
+  .btn,
+  .btn:link,
+  .btn:visited {
+    padding: 2.4rem 1.6rem;
+  }
+
+  .cta {
+    grid-template-columns: 1fr;
+  }
+  .cta-img-box {
+    height: 32rem;
+    grid-row: 1;
+  }
+  .cta-text-box {
+    padding: 3.2rem;
+  }
+
+  .college-list {
+    grid-template-columns: 1fr;
+    max-width: 4000px;
+    margin: 0 auto;
+  }
+  .main-nav {
+    gap: 4.8rem;
+  }
+}
+
+/* ************************************* */
+/* Fixing Safari Flexbox gap */
+
+.no-flexbox-gap .social-links li:not(:last-child) {
+  margin-right: 2.4rem;
+}
+
+.no-flexbox-gap .footer-nav li:not(:last-child) {
+  margin-bottom: 2.4rem;
+}

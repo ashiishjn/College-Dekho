@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script defer src="script.js"></script>
+    <link rel="icon" href="img/Logo.jpg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <title>Home - College Dekho</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <img class="logo" alt="College Dekho logo" src="img/Logo.jpg" />
+      </a>
+      <nav class="main-nav">
+        <li class="nav"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav"><a class="nav-link" href="#contact-me">Contact </a></li>
+      </nav>
+    </header>
+    <section class="search-section">
+      <h1 class="heading-primary">Start Discovering Your College...</h1>
+      <div class="search">
+        <input
+          class="search-college"
+          type="text"
+          id="mySearch"
+          onkeyup="myFunction()"
+          placeholder="Enter College Name"
+          title="Type in a name"
+        />
+        <ul id="myMenu" class="search-js">
+          <li class="search-list-item">
+            <a class="search-list-anchor" href="/college-details/IITM.html"
+              >Indian Institute of Technology Madras</a
+            >
+          </li>
+          <li class="search-list-item">
+            <a class="search-list-anchor" href="/college-details/IITB.html"
+              >Indian Institute of Technology Bombay</a
+            >
+          </li>
+          <li class="search-list-item">
+            <a class="search-list-anchor" href="/college-details/IITD.html"
+              >Indian Institute of Technology Delhi</a
+            >
+          </li>
+          <li class="search-list-item">
+            <a class="search-list-anchor" href="/college-details/MIT.html"
+              >Manipal Institute of Technology</a
+            >
+          </li>
+          <li class="search-list-item">
+            <a class="search-list-anchor" href="/college-details/VIT.html"
+              >Vellore Institute of Technology</a
+            >
+          </li>
+          <li class="search-list-item">
+            <a class="search-list-anchor" href="/college-details/IIITH.html"
+              >International Institute of Information Technology Hyderabad</a
+            >
+          </li>
+          <li class="search-list-item">
+            <a class="search-list-anchor" href="/college-details/BITS.html"
+              >Birla Institute of Technology & Science -Pilani</a
+            >
+          </li>
+          <li class="search-list-item">
+            <a class="search-list-anchor" href="/college-details/IITK.html"
+              >Indian Institute of Technology Kanpur</a
+            >
+          </li>
+          <li class="search-list-item">
+            <a class="search-list-anchor" href="/college-details/NITT.html"
+              >National Institute of Technology Tiruchirappalli</a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="college-list-section">
+      <div class="college-list">
+        <a class="college-link college" href="/college-details/IITM.html">
+          <img class="college-logo" src="img/IITM-LOGO.jpg" alt="IITM LOGO" />
+          <div class="college-details">
+            <p class="college-name">Indian Institute of Technology Madras</p>
+            <p class="college-location">Chennai, Tamil Nadu</p>
+          </div>
+        </a>
+        <a class="college-link college" href="/college-details/IITB.html">
+          <img class="college-logo" src="img/IITB-LOGO.png" alt="IITB LOGO" />
+          <div class="college-details">
+            <p class="college-name">Indian Institute of Technology Bombay</p>
+            <p class="college-location">Mumbai, Maharashtra</p>
+          </div>
+        </a>
+        <a class="college-link college" href="/college-details/IITD.html">
+          <img class="college-logo" src="img/IITD-LOGO.jpg" alt="IITD LOGO" />
+          <div class="college-details">
+            <p class="college-name">Indian Institute of Technology Delhi</p>
+            <p class="college-location">New Delhi, Delhi</p>
+          </div>
+        </a>
+        <a class="college-link college" href="/college-details/MIT.html">
+          <img class="college-logo" src="img/MIT-LOGO.jpg" alt="MIT LOGO" />
+          <div class="college-details">
+            <p class="college-name">Manipal Institute of Technology</p>
+            <p class="college-location">Manipal, Karnataka</p>
+          </div>
+        </a>
+        <a class="college-link college" href="/college-details/VIT.html">
+          <img class="college-logo" src="img/VIT-LOGO.png" alt="VIT LOGO" />
+          <div class="college-details">
+            <p class="college-name">Vellore Institute of Technology</p>
+            <p class="college-location">Vellore, Tamil Nadu</p>
+          </div>
+        </a>
+        <a class="college-link college" href="/college-details/IIITH.html">
+          <img class="college-logo" src="img/IIITH-LOGO.jpg" alt="IIITH LOGO" />
+          <div class="college-details">
+            <p class="college-name">
+              International Institute of Information Technology Hyderabad
+            </p>
+            <p class="college-location">Hyderabad, Telangana</p>
+          </div>
+        </a>
+        <a class="college-link college" href="/college-details/BITS.html">
+          <img class="college-logo" src="img/BITS-LOGO.png" alt="BITS LOGO" />
+          <div class="college-details">
+            <p class="college-name">
+              Birla Institute of Technology & Science -Pilani
+            </p>
+            <p class="college-location">Pilani, Rajasthan</p>
+          </div>
+        </a>
+        <a class="college-link college" href="/college-details/IITK.html">
+          <img class="college-logo" src="img/IITK-LOGO.png" alt="IITK LOGO" />
+          <div class="college-details">
+            <p class="college-name">Indian Institute of Technology Kanpur</p>
+            <p class="college-location">Kanpur, Uttar Pradesh</p>
+          </div>
+        </a>
+        <a class="college-link college" href="/college-details/NITT.html">
+          <img class="college-logo" src="img/NITT-LOGO.jpg" alt="NITT LOGO" />
+          <div class="college-details">
+            <p class="college-name">
+              National Institute of Technology Tiruchirappalli
+            </p>
+            <p class="college-location">Tiruchirappalli, Tamil Nadu</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- **************************************************** -->
+    <section class="section-cta" id="cta">
+      <div class="container">
+        <div class="cta">
+          <div class="cta-text-box">
+            <h2 class="heading-secondary">Get your college on the list!</h2>
+            <p class="cta-text">
+              Cannot find the college you are looking for, just send us the
+              details and we will get it done for you.
+            </p>
+            <form class="cta-form" action="#">
+              <div>
+                <label for="full-name">College Name</label>
+                <input
+                  id="full-name"
+                  type="text"
+                  placeholder="Jadavpur University"
+                  required
+                />
+              </div>
+              <div>
+                <label for="email">Email address</label>
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="me@example.com"
+                  required
+                />
+              </div>
+              <div>
+                <label for="select-where">Where did you hear from us?</label>
+
+                <select id="select-where" required>
+                  <option value="">Please Choose on Option:</option>
+                  <option value="friends">Friends and family</option>
+                  <option value="youtube">Youtube Videos</option>
+                  <option value="podcast">Podcast</option>
+                  <option value="Facebook">Facebook</option>
+                  <option value="others">Others</option>
+                </select>
+              </div>
+              <button class="btn btn--form">Sign up now</button>
+            </form>
+          </div>
+          <div
+            class="cta-img-box"
+            role="img"
+            aria-label="Women enjoying food"
+          ></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- *********************************************************** -->
+
+    <footer class="footer" id="contact-me">
+      <div class="grid--footer">
+        <div class="logo-col">
+          <a href="#" class="footer--link">
+            <img
+              class="footer-logo"
+              alt="College Dekho logo"
+              src="img/Logo.jpg"
+            />
+          </a>
+          <ul class="social-links">
+            <li class="icon-list">
+              <a
+                class="footer-link"
+                href="https://github.com/ashiishjn"
+                target="_blank"
+              >
+                <ion-icon class="social-icon" name="logo-github"></ion-icon>
+              </a>
+            </li>
+            <li class="icon-list">
+              <a
+                class="footer-link"
+                href="https://instagram.com/aashishjn"
+                target="_blank"
+              >
+                <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <li class="icon-list">
+              <a
+                class="footer-link"
+                href="https://twitter.com/aashiishjn"
+                target="_blank"
+              >
+                <ion-icon class="social-icon" name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+            <li class="icon-list">
+              <a
+                class="footer-link"
+                href="https://www.facebook.com/ashiishjn"
+                target="_blank"
+              >
+                <ion-icon class="social-icon" name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <li class="icon-list">
+              <a
+                class="footer-link"
+                href="mailto:ashishjain4365@gmail.com"
+                target="_blank"
+              >
+                <ion-icon class="social-icon" name="mail-outline"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="adress-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p class="address">
+              623 Sri Krishna Bhawan, 2nd Floor, Mayur Vihar Phase-I, New Delhi
+              - 110026
+            </p>
+            <p>
+              <a class="footer-link" href="tel:911245128547">+91 12451 28547</a>
+            </p>
+          </address>
+        </div>
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Create account</a></li>
+            <li><a class="footer-link" href="#">Sign in</a></li>
+            <li><a class="footer-link" href="#">iOS app</a></li>
+            <li><a class="footer-link" href="#">Android app</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">About College Dekho</a></li>
+            <li><a class="footer-link" href="#">For Business</a></li>
+            <li><a class="footer-link" href="#">Careers</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+    <p class="copyright">
+      Copyright &copy; <span class="year">2022</span> by College Dekho, Inc. All
+      rights reserverd.
+    </p>
+  </body>
+</html>
+<script>
+  function myFunction() {
+    var input, filter, ul, li, a, i;
+    input = document.getElementById("mySearch");
+    if (input !== "") filter = input.value.toUpperCase();
+    ul = document.getElementById("myMenu");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+      a = li[i].getElementsByTagName("a")[0];
+      if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+        li[i].style.display = "";
+      } else {
+        li[i].style.display = "none";
+      }
+    }
+  }
+</script>

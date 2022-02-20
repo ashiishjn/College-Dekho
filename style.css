@@ -1,0 +1,429 @@
+/* 
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 
+30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 
+
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 
+64 / 80 / 96 / 128
+*/
+
+/* 
+#033249
+#FF8038
+#ffe8cc
+#555
+ */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  overflow-x: hidden;
+}
+/* *************************************** */
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  top: 0;
+  height: 9.6rem;
+  padding: 0 9.6rem;
+  background-color: #033249;
+  position: fixed;
+  z-index: 999;
+}
+
+.logo {
+  width: 9.6rem;
+  height: 9.6rem;
+}
+.main-nav {
+  display: flex;
+  gap: 9.6rem;
+}
+.nav {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  font-size: 2.4rem;
+  text-decoration: none;
+  color: #ff8038;
+  display: inline-block;
+  transition: all 0.3s;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: #e67332;
+}
+
+/* ************************************************** */
+/* SEARCH SECTION */
+.heading-primary {
+  text-align: center;
+  font-size: 4.8rem;
+  padding: 4.8rem 0 4.8rem 0;
+  color: #ff8038;
+}
+.search-section {
+  background-color: #033249;
+  padding: 14.4rem 0 9.6rem 0;
+}
+.search {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 4.8rem;
+  position: relative;
+}
+
+.search-college {
+  background: white;
+  padding: 17px;
+  height: 5.4rem;
+  font-size: 2rem;
+  width: 64rem;
+  border-radius: 1.2rem;
+  color: #555;
+  border: 1px solid #ff8038;
+}
+
+.search-js {
+  display: none;
+}
+.search-list {
+  background-color: white;
+  position: absolute;
+  top: 5.9rem;
+  display: inline-block !important;
+  border-radius: 1.2rem;
+  border-top: 0.1px solid #aaa;
+  border-left: 0.1px solid #aaa;
+  border-right: 0.1px solid #aaa;
+  border-bottom: 0.1px solid #aaa;
+}
+.search-list-item {
+  list-style: none;
+  width: 64rem;
+  padding: 0.8rem;
+}
+
+.search-list li:first-child {
+  border-top: none;
+}
+.search-list-anchor {
+  display: block;
+  text-decoration: none;
+  color: #033249;
+  font-size: 1.8rem;
+}
+/* ************************************************** */
+
+.college-list-section {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding-top: 9.6rem;
+}
+.college-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 4.8rem 0;
+  row-gap: 4.8rem;
+  column-gap: 4.8rem;
+  justify-items: center;
+  align-content: center;
+}
+
+.college-link {
+  text-decoration: none;
+  display: block;
+}
+
+.college {
+  display: flex;
+  flex-direction: column;
+  justify-self: stretch;
+  align-self: stretch;
+  border-radius: 1.2rem;
+  padding: 2.4rem 0 0 0;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  overflow: hidden;
+  transition: all 0.4s;
+}
+
+.college:hover {
+  transform: translateY(-0.8rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+
+.college-logo {
+  height: 12.8rem;
+  display: inline-block;
+  align-self: center;
+  padding-bottom: 1.8rem;
+}
+
+.college-details {
+  font-size: 1.8rem;
+  color: #555;
+  padding: 1.2rem 1.2rem 2.4rem 1.2rem;
+  height: auto;
+  text-align: center;
+}
+
+.college-name {
+  color: #555;
+  padding: 1.2rem 0 1.2rem 1.2rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* ****************************** */
+/* FOOTER */
+
+.footer {
+  background-color: #033249;
+  padding: 9.6rem 4.8rem;
+}
+
+.footer--link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-heading {
+  color: #ff8038;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
+
+.footer-logo {
+  height: 12.8rem;
+  display: block;
+  margin-bottom: 5rem;
+}
+
+.icon-list {
+  list-style: none;
+}
+
+.social-icon {
+  color: #ff8038;
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.social-icon:hover,
+.social-icon:active {
+  color: #e67332;
+}
+
+.copyright {
+  text-align: center;
+  background-color: #033249;
+  padding: 2.4rem 0 4.8rem 0;
+  font-size: 1.2rem;
+  color: #fff2eb;
+  margin-top: auto;
+}
+
+.grid--footer {
+  display: grid;
+  row-gap: 9.6rem;
+  column-gap: 6.4rem;
+  grid-template-columns: 3fr 3fr 2fr 2fr;
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-links {
+  display: flex;
+  gap: 2.4rem;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.address {
+  margin-bottom: 4.4rem;
+  color: #fff2eb;
+}
+
+.contacts {
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: #fff2eb;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #fff2eb;
+  transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #ffd9c3;
+}
+
+/* ********************************* */
+/* CTA SECTION */
+
+.section-cta {
+  padding: 4.8rem 0 12.8rem 0;
+}
+
+.heading-secondary {
+  font-weight: 700;
+  color: #333;
+  letter-spacing: -0.5px;
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.2rem;
+}
+
+.cta {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: #e67e22;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+  border-radius: 11px;
+  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+  overflow: hidden;
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 0;
+}
+
+.cta-text-box {
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  color: #45260a;
+}
+
+.cta .heading-secondary {
+  color: #45260a;
+  margin-bottom: 3.2rem;
+}
+
+.cta-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 4.8rem;
+}
+
+.cta-img-box {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(235, 151, 78, 0.35),
+      rgba(230, 125, 34, 0.35)
+    ),
+    url("../img/cta-img.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+
+.cta-form label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.cta-form input,
+.cta-form select {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  background-color: #fdf2e9;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.cta-form input::placeholder {
+  color: #aaa;
+}
+
+.cta *:focus {
+  outline: none;
+  box-shadow: 0 0 0.8rem rgba(253, 242, 233, 0.5);
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+  /* Transition animation */
+  transition: all 300ms;
+  border: none;
+  cursor: pointer;
+}
+
+.btn--form {
+  background-color: #45260a;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn--form:hover {
+  background-color: #fff;
+  color: #555;
+}
