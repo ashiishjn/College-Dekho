@@ -74,22 +74,22 @@ This is done using HTML and CSS.
   <br>
   <h3 align="center">Landing Page (Desktop)</h3>
   <p align="center">
-    <a href="https://ibb.co/4NTKT91"><img src="https://i.ibb.co/GP2n2BH/Image-2.jpg" alt="Landing Page" border="0"></a>
+    <a href="https://ibb.co/4NTKT91"><img src="https://i.ibb.co/GP2n2BH/Image-2.jpg" alt="Landing Page (Desktop)" border="0"></a>
   </p>
   
   <h3 align="center">Page for different Colleges (Desktop)</h3>
   <p align="center">
-    <a href="https://ibb.co/fGtD4yr"><img src="https://i.ibb.co/M5pBMtP/Image-1.jpg" alt="Image-1" border="0"></a>
+    <a href="https://ibb.co/fGtD4yr"><img src="https://i.ibb.co/M5pBMtP/Image-1.jpg" alt="Page for different Colleges (Desktop)" border="0"></a>
   </p>
   
   <h3 align="center">Landing Page(Mobile)</h3>
   <p align="center">
-    <a href="https://ibb.co/0CWnhD0"><img src="https://i.ibb.co/McjgM2z/Image-5.jpg" alt="Image-5" border="0"></a>
+    <a href="https://ibb.co/0CWnhD0"><img src="https://i.ibb.co/McjgM2z/Image-5.jpg" alt="Landing Page(Mobile)" border="0"></a>
   </p>
   
   <h3 align="center">Page for different Colleges(Mobile)</h3>
   <p align="center">
-    <a href="https://ibb.co/mRc1C62"><img src="https://i.ibb.co/rQwTG4z/Image-6.jpg" alt="Image-6" border="0"></a>
+    <a href="https://ibb.co/mRc1C62"><img src="https://i.ibb.co/rQwTG4z/Image-6.jpg" alt="Page for different Colleges(Mobile)" border="0"></a>
   </p>
     
 </details>
